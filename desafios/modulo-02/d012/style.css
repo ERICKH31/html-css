@@ -50,6 +50,9 @@ section{
     font-family: var(--fonte3);
     font-size: 3.5vw; /* vw faz com que a letra se adpte ao tamanho da tela*/
 }
+section > p{
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;
     color: black;
@@ -57,12 +60,28 @@ section.normal{
 section.imagem{
     background-color: rgb(50, 50, 50);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed; /* deixa a imagem fixa de fundo8*/
 
 }
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.276);
+    background-color: rgba(0, 0, 0, 0.532);
+    text-shadow: 1px 1px 0px black;
+}
+section#img01{   /* # é representado pelo id*/
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    
+    
+
 }
 footer{
     background-color: black;
