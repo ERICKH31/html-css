@@ -5,17 +5,29 @@
     padding: 0px;
 }
 body, html{
-    background-color: aqua
+    background-color: lightgray;
 }
 header{
-    background-color: aquamarine;
+    background-color: rgba(148, 148, 148);
 }
 header > h1{
     padding: 10px;
     text-align: center;
 }
+span{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+}
+span:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer; /*efeito da mãozinha*/
+}
 menu{
-    display: block;
+    display: none;
 }
 menu >ul{
     list-style-type: none;
@@ -30,7 +42,7 @@ menu > ul > li > a{
     border-top: 2px solid white;
 }
 menu > ul > li > a:hover{
-    background-color: darkred;
+    background-color: rgb(98, 97, 97);
 }
 main{
     width: 90vw;
